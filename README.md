@@ -5,7 +5,7 @@ Este é um site totalmente feito em html/css para o projeto.
 
 ## Uma demonstração da interface clone: :arrow_down:
 
-![Ifood](https://user-images.githubusercontent.com/59674959/141373951-5580ef45-33d0-4fc2-b323-4b178b95bf6f.png)
+![image](https://user-images.githubusercontent.com/59674959/141375702-fed8bb82-fae0-4daf-8b8a-6120a83c4f4b.png)
 
 <br>
 
