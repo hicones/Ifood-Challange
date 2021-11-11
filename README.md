@@ -13,7 +13,7 @@ Este é um site totalmente feito em html/css para o projeto.
 
 <br>
 
-## Agora vai uma demonstração do formulário original.
+## Agora vai uma demonstração do formulário original. :arrow_down:
 
 ![Home](https://user-images.githubusercontent.com/59674959/141242996-5b94c554-9938-4154-85ec-b88e29378c7e.gif)
 
