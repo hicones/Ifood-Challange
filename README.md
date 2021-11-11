@@ -15,7 +15,7 @@ Este é um site totalmente feito em html/css para o projeto.
 
 ## Agora vai uma demonstração do formulário original. :arrow_down:
 
-![Home](https://user-images.githubusercontent.com/59674959/141242996-5b94c554-9938-4154-85ec-b88e29378c7e.gif)
+![ifood1](https://user-images.githubusercontent.com/59674959/141374216-49105a06-88f0-41f5-a0cf-bbfe1efd7fa6.jpg)
 
 ------------------------------------------------------------------------------------------------------------------------------
 
