@@ -1,7 +1,7 @@
 # Ifood Challange
 
 Este é um formulário de cadastro de restaurantes do ifood desenvolvido no interprise connection de Análise e desenvolvimento de sistemas da FIAP <br>
-Este é um site totalmente feito em html/css para o projeto.
+Esta é minha interpretação do formulário totalmente feita em html/css para o projeto.
 
 ## Uma demonstração da interface clone: :arrow_down:
 
