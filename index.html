@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Ifood</title>
+  <link rel="stylesheet" href="./Styles/Scss.css"
+</head>
+<body>
+  <form>
+    <div class="container">
+      <p>
+        <img src="./icons/whatsapp-logo-1-1.svg" alt="whatsapp" width="30" height="30">
+        Se preferir, você pode se cadastrar via WhatsApp, pelo numero (011) 97657-3496
+      </p>
+      <div class="coluna1">
+        <div class="dados">
+          <h2>Dados do Restaurante</h2>
+          <input type="text" id="nome" name="nome" placeholder="Nome do seu Restaurante"><br>
+          <input type="text" id="telefone" name="telefone" placeholder="Telefone do seu restaurante (apenas números)"><br>
+          <input type="text" id="cnpj" name="cnpj" placeholder="CNPJ do seu restaurante (apenas números)"><br>
+          <select name="Tipos de cozinha" id="tipos"> 
+            <option value="estado">Tipos de cozinha</option> 
+            <option value="lc">Lanches</option> 
+            <option value="pz">Pizzas</option> 
+            <option value="ct">Comida tradicional</option> 
+            <option value="jp">Comida japonesa</option> 
+            <option value="cs">Comidas saudáveis</option> 
+            <option value="sb">Sobremesas</option> 
+            <option value="it">Italiana</option> 
+            <option value="fr">Francesa</option> 
+            <option value="bb">bebidas</option> 
+          </select>
+        </div>
+        <div class="pratop">
+          <p class="entrega">
+            <h2>
+            Já faz entrega? 
+            <input type="radio" id="buto" name="fav_language" value="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" id="buto" name="fav_language" value="sim">
+            <label for="sim">Não</label><br>
+            </h2>
+          </p>
+          <select name="Há quanto tempo faz delivery / Tele entrega?" id="tipos"> 
+            <option value="estado">Há quanto tempo faz delivery / Tele entrega?</option> 
+            <option value="lc">Entre 1 e 6 meses</option> 
+            <option value="pz">Entre 6 e 12 meses</option> 
+            <option value="ct">Entre 1 e 3 anos</option> 
+            <option value="jp">Mais de 3 anos</option> 
+          </select>
+          <input type="text" id="descrição" name="descrição" placeholder="Quantidade de entrega por mês (Ex: 400)"><br>
+          <input type="text" id="preço" name="preço" placeholder="Quantidade de motoqueiros (Ex:2)"><br>
+        </div>
+      </div>
+      <div class="coluna2">
+        <div class="endereço">
+          <h2>Endereço do Restaurante</h2>
+          <input type="text" id="cep" name="cep" placeholder="CEP (apenas números)">
+  
+          <select name="estado" id="estado"> 
+            <option value="estado">Selecione o Estado</option> 
+            <option value="ac">Acre</option> 
+            <option value="al">Alagoas</option> 
+            <option value="am">Amazonas</option> 
+            <option value="ap">Amapá</option> 
+            <option value="ba">Bahia</option> 
+            <option value="ce">Ceará</option> 
+            <option value="df">Distrito Federal</option> 
+            <option value="es">Espírito Santo</option> 
+            <option value="go">Goiás</option> 
+            <option value="ma">Maranhão</option> 
+            <option value="mt">Mato Grosso</option> 
+            <option value="ms">Mato Grosso do Sul</option> 
+            <option value="mg">Minas Gerais</option> 
+            <option value="pa">Pará</option> 
+            <option value="pb">Paraíba</option> 
+            <option value="pr">Paraná</option> 
+            <option value="pe">Pernambuco</option> 
+            <option value="pi">Piauí</option> 
+            <option value="rj">Rio de Janeiro</option> 
+            <option value="rn">Rio Grande do Norte</option> 
+            <option value="ro">Rondônia</option> 
+            <option value="rs">Rio Grande do Sul</option> 
+            <option value="rr">Roraima</option> 
+            <option value="sc">Santa Catarina</option> 
+            <option value="se">Sergipe</option> 
+            <option value="sp">São Paulo</option> 
+            <option value="to">Tocantins</option> 
+        </select>
+        <br>
+        <input type="text" id="cid" name="cid" placeholder="Cidade">
+        <input type="text" id="bairro" name="bairro" placeholder="Bairro"><br>
+        <input type="text" id="endereco" name="endereco" placeholder="Endereço do seu restaurante">
+        <input type="text" id="numero" name="numero" placeholder="Número"><br>
+        <input type="text" id="complemento" name="complemento" placeholder="Complemento"><br>
+        </div>
+        <div class="sobremesa">
+          <h2>Contato do representante legal</h2>
+          <input type="text" id="nomeresponsavel" name="nomeresponsavel" placeholder="Nome do Responsável">
+          <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome"><br>
+          <input type="text" id="email" name="email" placeholder="Email do responsável"><br>
+          <input type="text" id="celular" name="celular" placeholder="Celular do responsável (apenas números)"><br>
+          <input type="text" id="como" name="como" placeholder="Como você conheceu o iFood?"><br>
+        </div>
+        <div class="button">
+          <div class="inner"></div>
+          <button>ENVIAR DADOS PARA ANÁLISE</button>
+       </div>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
