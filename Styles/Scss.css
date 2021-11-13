@@ -1,0 +1,108 @@
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: roboto;
+  background-color: white;
+}
+
+.container {
+  width: 1400px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 60px 240px 60px 240px;
+}
+
+p {
+  display: inline-flexbox;
+  width: 55%;
+  font-size: 18px;
+}
+
+.coluna1 {
+  width: 48%;
+}
+
+.coluna2 {
+  width: 48%;
+}
+
+.container h2 {
+  color: #707070;
+}
+
+input, select{
+  height: 35px;
+  width: 650px;
+  border: 3px solid #EAE9E7;
+  border-radius: 3px;
+  font-size: 24px;
+  transition: .4s;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+input#endereco {
+  width: 500px;
+}
+
+input#valor,#numero {
+  width: 130px;
+}
+
+input#bairro, #cep, #cid, #nomeresponsavel, #sobrenome {
+  width: 315px;
+}
+
+input#cid::placeholder {
+  color: #9F9F9F;
+}
+
+select#tipos {
+  width: 660px;
+  height: 40px;
+}
+
+select#estado {
+  width: 325px;
+  height: 40px;
+}
+
+input:focus{
+  border: 1px solid #B21F25;
+}
+
+input::placeholder {
+  font-size: 18px;
+  padding: 5px;
+  color: #EAE9E7;
+}
+
+select::name {
+  color: #9F9F9F;
+}
+
+option {
+  color: #9F9F9F;
+}
+
+form .button{
+  margin-top: 30px;
+}
+
+.button button{
+  width: 660px;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  background: #B21F25;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+input#buto {
+  display: inline;
+  width: 18px;
+  height: 18px;
+}
